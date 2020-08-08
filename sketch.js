@@ -16,7 +16,7 @@ function setup() {
   world = engine.world;
   ground = new Ground(240,790,480,20);
 
-  for (var k = 20; k<=canvas.width; k=k+85){
+  for (var k = 10; k<=canvas.width; k=k+90){
     divisions.push(new Division(k,500+300/2,10,300));
   
   }
